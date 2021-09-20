@@ -171,3 +171,11 @@ def saveProject():
 
 ```
 
+## AZIONI
+
+sullo shp delle province applicare
+
+```
+layer = QgsProject.instance().mapLayer('[% @layer_id %]')
+layer.selectByExpression(' "COD_REG"=\'[%COD_REG%]\' ')
+```
