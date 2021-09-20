@@ -1,5 +1,5 @@
-# EstateGIS Master GIScience
-Incontro EstateGIS Master GIScience
+# Workshop foss4g 2021
+
 
 
 ## Pillole di Python
@@ -10,16 +10,16 @@ Brevissima guida, ispirata da spatialthoughts.com
 **stringhe**
 
 ```
-master = 'Master GIScience'
-university = 'UNIPD'
-print(master, university)
+evento = 'Foss4g 2021'
+associazione = 'gfoss.it'
+print(evento, associazione)
 ```
 
 *operazioni con le stringhe*  
 
 ```
-print(len(master))
-print(master.split())
+print(len(evento))
+print(evento.split())
 ```
 
 **numeri**
@@ -120,7 +120,8 @@ for i in citta:
 ```
 
 
-### Funzioni
+### Funzioni  
+(source: spatialthoughts.com)
 
 Una funzione è un blocco di codice che riceve uno o più input, li processa e restrituisce un output. In Python una funzione si definisce con la keyword def.  
 ```
