@@ -159,3 +159,15 @@ print(lat_decimal, lon_decimal)
 ```
 
 
+## MACRO
+Le macro si applicano al progetto
+
+```
+from qgis.utils import iface
+
+def saveProject():
+    message = iface.messageBar()
+    message.pushMessage('Hai salvato il progetto', 10)
+
+```
+
